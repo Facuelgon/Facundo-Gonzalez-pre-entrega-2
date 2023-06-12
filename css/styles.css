@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-size: cover;
+  background-image: url(../img/elpepe.jpg);
+}
+
+header {
+  background: rgba(22, 20, 20, 0.4);
+}
+/*                                                                                                    INICIO                                                         */
+nav {
+  height: 200px;
+}
+
+.container h1 {
+  color: red;
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+}
+
+.container h3 {
+  color: rgb(0, 255, 0);
+  font-family: "Satisfy", cursive;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.container-fluid {
+  margin-top: -25px;
+}
+
+.navbar-nav {
+  z-index: 3;
+  position: absolute;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+.navbar-nav a {
+  color: black;
+}
+/*                                                                                                      Paguina INDEX                                                          */
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+}
+
+.box-background {
+  margin-top: 23%;
+  margin-left: 10%;
+  width: 80%;
+  background: rgba(22, 20, 20, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.box-background .pregunta {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Satisfy", cursive;
+}
+.buscador {
+  height: 60px;
+  width: 60px;
+}
+
+.espacio-blanco {
+  height: 255px;
+  width: 100%;
+}
+
+/*                                                                                        Paguina  NOVEDADES                                                                        */
+
+.novedad {
+  width: 100%;
+  height: 100%;
+}
+
+.novedad h2 {
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-top: 20px;
+}
+/*                                                                                              carousel                                                                        */
+.carousel {
+  width: 90%;
+  margin-left: 20px;
+}
+.d-block {
+  height: 250px;
+}
+.carousel-item .carousel-caption {
+  color: rgb(117, 212, 53);
+}
+.carousel-item .carousel-caption a {
+  text-decoration: none;
+  color: rgb(117, 212, 53);
+}
+.carousel-item .carousel-caption h5 {
+  font-size: 30px;
+  width: 100%;
+  text-decoration-line: underline;
+}
+
+.carousel-item .carousel-caption p {
+  font-size: small;
+}
+
+/*                                                                                            cards novedades                                                                                 */
+.cards-novedades {
+  margin-top: 20px;
+}
+.tarjetas {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.img-fluid {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 80%;
+}
+.espacio-blanco2 {
+  height: 10px;
+}
+.tarjetas .card {
+  background: rgba(22, 20, 20, 0.7);
+}
+
+.card-body p {
+  color: white;
+}
+/*                                                                                                 Paguina CONTACTO                                                                */
+.form-register {
+  width: 400px;
+  background: rgba(22, 20, 20, 0.7);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  margin-bottom: 50px;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid red;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: #1f53c5;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+/*                                                                                             Paguina Videos                                                                    */
+.main-Videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.videos-div {
+  margin-left: 55px;
+}
+
+.titulo-comida {
+  width: 90%;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+/*                                                                                    FOOTER                                                                                     */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  position: bottom;
+  align-items: center;
+  justify-content: center;
+  background: rgba(22, 20, 20, 0.7);
+}
+
+.fotito {
+  display: flex;
+  gap: 100px;
+}
+.fotitochica {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  margin-left: 24%;
+}
+
+.copyrigth {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: none;
+  color: red;
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container-fluid {
+    margin-top: 0%;
+  }
+  .navbar-nav {
+    justify-content: space-around;
+  }
+  .box-background {
+    margin-top: 15%;
+    width: 80%;
+    height: 300px;
+    border-radius: 20%;
+  }
+  .novedad {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .d-block {
+    height: 400px;
+  }
+  .cards-novedades {
+    display: flex;
+  }
+  .tarjetas {
+    margin: 5px;
+  }
+
+  .cards-novedades {
+    flex-direction: row;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
