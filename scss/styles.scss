@@ -3,6 +3,11 @@
 @import "contacto";
 @import "videos";
 @import "espacios";
+
+// VARIABLE
+$color1: #DA2314;
+$color2: #69F689;
+
 * {
     margin: 0px;
     padding: 0px;
@@ -18,14 +23,14 @@
             
             .container {
                 h1 {
-                    color: red;
+                    color: $color1;
                     font-family: "Satisfy", cursive;
                     font-size: 40px;
                     }
             }
         
             h3 {
-                color: rgb(0, 255, 0);
+                color: $color2;
                 font-family: "Satisfy", cursive;
                 }
         
@@ -47,7 +52,12 @@
                                 }
                         }
                 }
+.box-background{
 
+    .pregunta h2 {
+color: $color2;
+    }
+}
                 footer {
                     display: flex;
                     flex-wrap: wrap;
@@ -69,10 +79,11 @@
                         margin-top: 20px;
                         text-align: center;
                         text-transform: none;
-                        color: red;
+                        color: $color2;
                         font-size: 10px;
                     }
                 }
+
                 
                     @media only screen and (min-width: 600px) {
                         .container-fluid {

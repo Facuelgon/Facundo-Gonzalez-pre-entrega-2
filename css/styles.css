@@ -163,7 +163,7 @@ main .box-background .espacio-blanco {
 }
 .form-register .botons {
   width: 100%;
-  background: #1f53c5;
+  background: #11edf5;
   border: none;
   padding: 12px;
   color: white;
@@ -212,12 +212,12 @@ body nav {
   height: 200px;
 }
 body nav .container h1 {
-  color: red;
+  color: #DA2314;
   font-family: "Satisfy", cursive;
   font-size: 40px;
 }
 body nav h3 {
-  color: rgb(0, 255, 0);
+  color: #69F689;
   font-family: "Satisfy", cursive;
 }
 body nav .logo {
@@ -234,6 +234,9 @@ body nav .navbar-nav {
 }
 body nav .navbar-nav a {
   color: black;
+}
+body .box-background .pregunta h2 {
+  color: #69F689;
 }
 body footer {
   display: flex;
@@ -257,7 +260,7 @@ body footer .copyrigth {
   margin-top: 20px;
   text-align: center;
   text-transform: none;
-  color: red;
+  color: #69F689;
   font-size: 10px;
 }
 @media only screen and (min-width: 600px) {
